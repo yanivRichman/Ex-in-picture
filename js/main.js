@@ -21,7 +21,7 @@ function createQuests() {
 
 function renderQuest() {
     var strHtml = '';
-    strHtml = '<img class src="img/' + (gCurrQuestIdx + 1) + '.JPG"> <div class ="answer1" onclick=checkAnswer(0)></div> <div class ="answer2" onclick=checkAnswer(1)></div>'
+    strHtml = '<img class src="./img/' + (gCurrQuestIdx + 1) + '.jpg"> <div class ="answer1" onclick=checkAnswer(0)></div> <div class ="answer2" onclick=checkAnswer(1)></div>'
 
     var elBackGround = document.querySelector('.backGround');
     elBackGround.innerHTML += strHtml;
